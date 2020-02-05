@@ -5,7 +5,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 @Entity
-public class Job extends AbstractEntity{
+public class Job extends AbstractEntity {
 
     @NotNull
     @Size(min=3, max=50)
